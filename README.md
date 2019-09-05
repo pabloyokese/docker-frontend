@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+##Docker command to run it in windows
+docker run -p 3000:3000 -v /app/node_modules -v /$(pwd):/app ecc4513899c1
+
 ## Available Scripts
 
 In the project directory, you can run:
