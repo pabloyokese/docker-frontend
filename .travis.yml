@@ -6,4 +6,4 @@ before_install:
   - docker build -t pabloyokese/docker-frontend -f Dockerfile.dev .
 
 script:
-  - docker run pabloyokese/docker-frontend npm run test -- --coverage
+  - docker run pabloyokese/docker-frontend npm run test -- --coverage --watchAll=false
